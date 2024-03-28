@@ -24,8 +24,9 @@ nav {padding: 10px; margin-bottom: 30px; background-color: #50c4ed; color: #0000
 .bannerimg {max-width: 100%;}
 
 @media only screen and (max-width: 800px) {
-    .nav a {max-width: 100%;} 
-}
-@media only screen and (min-width: 801px) {
-    .nav a {max-width: 10%;}
+    nav a {font-size: 100%;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;}
+    nav span {display: none;}
 }
