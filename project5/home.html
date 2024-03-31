@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Home</title>
+    <style>
+        .footer {display: flex;}
+        .footer div {flex: 1;}  
+    </style>
+    <script src="https://kit.fontawesome.com/e8dab42538.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <nav>
     <a href="home.html">Home</a> <span>|</span>
-    <a href="about.html">Projects</a> <span>|</span>
-    <a href="contact.html">Research</a>
+    <a href="projects.html">Projects</a> <span>|</span>
+    <a href="research.html">Research</a>
 </nav>
 <hr>
-<header><img src="Hanrahan2022PortraitLandscape.jpg" width=100% alt="Professional photo of Andrew Hanrahan with text overlay that reads 'Hi, I'm Andrew'"></header>
+<header><img class="banner" src="Hanrahan2022PortraitLandscape.jpg" width="750" alt="Professional photo of Andrew Hanrahan with text overlay that reads 'Hi, I'm Andrew'"></header>
 <h1>About Me</h1>
 <p>
 Welcome to my project portfolio! A bit about me:
@@ -23,7 +28,7 @@ I strive to work in the fields of education and IT, either in a K-12 setting or 
 In this portfolio website, you will see examples of the work that I have completed at Syracuse University, both for course projects and for academic research.
 </p>
 <p>Thanks for visiting,</p>
-<img src="signature.png" width=100px alt="cursive signature of my first name">
+<img src="signature.png" width="100" alt="cursive signature of my first name">
 <p>I invite you to contact me by filling out the form below:
 </p>
 <form action="https://formspree.io/f/xvoewwgr" method="post">
@@ -35,5 +40,14 @@ In this portfolio website, you will see examples of the work that I have complet
     <textarea id="message" name="message" rows="3" cols="40"></textarea><br><br>
 <input type="submit" value="Submit">
 </form>
+<hr>
+<div class="footer">
+    <div>
+        &copy; Andrew L. Hanrahan 2024
+    </div>
+    <div>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+</div>
 </body>
 </html>
