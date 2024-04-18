@@ -1,0 +1,32 @@
+body {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+background-color: #333a73;
+color: #ffffff;}
+h1 {color:#fba834}
+h2 {color:#50c4ed}
+a {color: #fba834;}
+nav a:hover {background-color: #333a73;} 
+nav a {color: #000000}
+nav {padding: 10px; margin-bottom: 30px; background-color: #50c4ed; color: #000000}
+.evenrow {background-color:#50c3ed7e}
+.centered {text-align: center;}
+.flexbox2 {
+    display:flex;
+    }
+.flexbox1 {display: flex; 
+    justify-content: space-around;
+     flex:3;}
+.other {border-radius: 1em; 
+    background-color:azure; 
+    color: black; 
+    padding:3px;
+    flex:1;
+}
+.bannerimg {max-width: 100%;}
+
+@media only screen and (max-width: 800px) {
+    nav a {font-size: 100%;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;}
+    nav span {display: none;}
+}
