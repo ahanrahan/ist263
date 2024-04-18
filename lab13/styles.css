@@ -16,11 +16,12 @@ nav {padding: 10px; margin-bottom: 30px; background-color: #50c4ed; color: #0000
     justify-content: space-around;
      flex:3;}
 .other {border-radius: 1em; 
-    background-color:azure; 
+    background-color: #50c4ed; 
     color: black; 
     padding:3px;
     flex:1;
 }
+.other h2 {color: black;}
 .bannerimg {max-width: 100%;}
 
 @media only screen and (max-width: 800px) {
