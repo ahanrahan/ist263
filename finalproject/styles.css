@@ -1,0 +1,92 @@
+body {background-color: #90a955;}
+nav {background-color: #132a13;
+    color: #ffffff;
+    padding: 10px;
+    padding-right: 40px;
+    margin-bottom: 30px;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 1em;}
+nav a {color: #ffffff;}
+nav a:hover {background-color: #4f772d;}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* p {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 150;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+} */
+p, .button, h1, h2, nav {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    line-height: 1.5;
+}
+footer {display: flex;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 1000px) {
+    nav a {font-size: 100%;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+    nav, .button, .showcase {flex-direction: column;}
+    nav span {display: none;}
+}
+.center 
+    {text-align: center; display: block;}
+h1, h2, p
+    {color: #132A13;}
+
+    .button {display: flex;}
+    .button div {display: flex;
+        flex: 1; 
+        padding: 15px; 
+        border: 1px #31572C solid;
+        margin: 15px;
+        justify-content: space-around;
+        border-radius: 10em;
+        background: #132a13;
+        color: #ECF39E;
+        text-align: center;
+    }
+    .button div:hover {background: #ECF39E; color: #132a13;}
+    .centerheader {text-align: center; 
+        font-size: 1.75em;
+        font-weight: bold;}
+    .centertext {text-align: center;
+        font-size: 1.25em;
+        font-style: italic;}
+    .showcase {display: flex;}
+    .description, .sample {flex: 1; padding: 15px;}
+
+    .skip {
+        background-color: #31572C;
+        color: #ffffff;
+        padding: 8px;
+        text-decoration: none;
+        border: 2px solid #ECF39E;
+        position: absolute;
+        top: 10px;
+        left: -999px;
+    }
+    .skip:focus {
+        left: 10px;}
+
+/*
+color palette: https://coolors.co/palette/132a13-31572c-4f772d-90a955-ecf39e
+*/
+
+
+/*    .project {display: flex;
+        padding: 10px;}
+        .project div {flex: 1;}
+        .microsoft {display: flex;}
+        .microsoft, .hnr, .baroque {padding: 15px;} */
