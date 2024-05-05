@@ -34,11 +34,12 @@ footer {display: flex;
 @media only screen and (max-width: 1000px) {
     nav a {font-size: 100%;
     display: block;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     }
-    nav, .button, .showcase {flex-direction: column;}
+    nav, .button, .showcase, .thesisimages {flex-direction: column;}
     nav span {display: none;}
+    nav {padding-bottom: 35px;}
 }
 .center 
     {text-align: center; display: block;}
